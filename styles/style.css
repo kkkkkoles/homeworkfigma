@@ -1,0 +1,26 @@
+.preview .titledenis{
+    padding: 0px 0px 50px;
+    font-size: 48px;
+    line-height: 65px;
+    color: #070707;
+}
+
+.about-me{
+    margin: 100px 0px 100px;
+}
+
+.titleabout-me{
+    padding: 0px 0px 50px;
+    font-size: 34px;
+    line-height: 46px;
+    text-align: center;
+    color: #070707;
+}
+
+.text-inf{
+    padding: 30px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #070707;
+}

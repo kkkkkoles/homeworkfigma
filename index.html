@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-   <header>
+   <header id="home">
     <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#aboutme">About me</a></li>
@@ -15,63 +16,91 @@
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#contacts">Contacts</a></li>
     </ul>
+    <hr>
    </header>
    <main>
-    <div>
-        <h1 id="home">Denis Novik</h1>
+    <section class="preview">
+        <h1 class="titledenis">Denis Novik</h1>
+        <div>
         <img src="./img/previewphoto.jpg" alt="photodenis">
-    </div>
-    <div>
-        <h2 id="aboutme">About me</h2>
-        <p>Hi, I'm Denis – UX/UI designer from Minsk.
-            I'm interested in design and everything connected with it.</p>
-        <p>I'm studying at courses "Web and mobile design 
-            interfaces" in IT-Academy.</p>
-        <p>Ready to implement excellent projects
-            with wonderful people.</p>
-    </div>
-    <section>
-        <h2 id="skills">Skills</h2>
+        </div>
+    </section>
+    <section class="about-me" id="aboutme">
+        <h2 class="titleabout-me">About me</h2>
+        <div class="text-inf">
+            <p>Hi, I'm Denis – UX/UI designer from Minsk.
+            I'm interested in design and everything connected with it.
+            </p>
+        </div>
+        <div class="text-inf">
+            <p>I'm studying at courses "Web and mobile design 
+            interfaces" in IT-Academy.
+            </p>
+        </div>
+        <div class="text-inf">
+            <p>Ready to implement excellent projects
+            with wonderful people.
+            </p>
+        </div>
+        </section>
+    <section  id="skills">
+        <h2>Skills</h2>
         <p>I work in such programs as</p>
         <div>
+            <div><img src="./img/ps.svg" alt="ps">
+            </div>
             <h3>Adobe photoshop</h3>
-            <img src="./img/ps.svg" alt="ps">
-            <img src="./img/starps.svg" alt="rateps">
+            <div><img src="./img/starps.svg" alt="rateps">
+            </div>
         </div>
         <div>
+            <div><img src="./img/ai.svg" alt="ai">
+            </div>
             <h3>Adobe Illustrator</h3>
-            <img src="./img/ai.svg" alt="ai">
-            <img src="./img/starai.svg" alt="rateai">
+            <div><img src="./img/starai.svg" alt="rateai">
+            </div>
         </div>
         <div>
+            <div><img src="./img/ae.svg" alt="ae"></div>
             <h3>Adobe After Effects</h3>
-            <img src="./img/ae.svg" alt="ae">
-            <img src="./img/starae.svg" alt="rateae">
+            <div><img src="./img/starae.svg" alt="rateae">
         </div>
-        <div>
+        <dvi>
+            <div><img src="./img/figma.svg" alt="figma">
+            </div>
             <h3>Figma</h3>
-            <img src="./img/figma.svg" alt="figma">
-            <img src="./img/starfigma.svg" alt="ratefigma">
+            <div><img src="./img/starfigma.svg" alt="ratefigma">
         </div>
     </section>
-    <section>
-        <h2 id="portfolio">Portfolio</h2>
-        <img src="./img/portfolio.jpg" alt="portfolio">
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div><img src="./img/portfolio.jpg" alt="portfolio">
+        </div>
         <a href="#">Online fashion store</a>
-        <img src="./img/reebok.jpg" alt="reebok">
+        <div><img src="./img/reebok.jpg" alt="reebok">
+        </div>
         <a href="#">Reebok Store - Concept</a>
-        <img src="./img/braun.jpg" alt="braun">
+        <div><img src="./img/braun.jpg" alt="braun">
+        </div>
         <a href="#">Braun Landing Page - Concept</a>
     </section>
-    <section>
-        <h2 id="contacts">Contacts</h2>
+    <section id="contacts">
+        <h2>Contacts</h2>
         <p>Want to know more or just chat?</p>
         <p>You are welcome!</p>
-        <button type="submit" class="button">Send message</button>
-        <img src="./img/linkedin.svg" alt="linkedin">
-        <img src="img/instagram.svg" alt="instagram">
-        <img src="./img/behance.svg" alt="behance">
-        <img src="./img/dribbble.svg" alt="dribbble">
+        <div><button type="submit">Send message</button></div>
+        <div>
+            <a href="#"><img src="./img/linkedin.svg" alt="linkedin"></a>
+        </div>
+        <div>
+            <a href=""><img src="img/instagram.svg" alt="instagram"></a>
+        </div>
+        <div>
+            <a href="#"><img src="./img/behance.svg" alt="behance"></a>
+        </div>
+        <div>
+            <a href="#"><img src="./img/dribbble.svg" alt="dribbble"></a>
+        </div>
         <p>like me on</p>
         <p>Linkedin,Instagram,Behance,Dribble</p>
     </section>
